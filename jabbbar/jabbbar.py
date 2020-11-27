@@ -2,7 +2,7 @@ import requests as req
 
 __author__ = "Karim Cheurfi"
 
-API_URL         = "https://api.dribbble.com/v1"
+API_URL         = "https://api.dribbble.com/v2"
 AUTH_ENDPOINT   = "https://dribbble.com/oauth/authorize"
 OAUTH_ENDPOINT  = "https://dribbble.com/oauth/token"
 SCOPE           = ['write', 'public', 'comment', 'upload']
